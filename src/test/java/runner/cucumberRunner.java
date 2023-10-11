@@ -9,7 +9,6 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = "classpath:features"
 		,glue={"stepDefinitions"},
-		tags = "@regTest",
 		plugin = {"pretty","html:target/ApplicationTest.html","json:target/ApplicationTest.json"}
 		)
 public class cucumberRunner {

@@ -24,7 +24,7 @@ public class dataTest {
 	@When("page loads")
 	public void page_loads() throws IOException {
 		
-		XSSFWorkbook xssf = new XSSFWorkbook("C:\\Users\\chinn\\OneDrive\\Desktop\\Book1.xlsx");
+		XSSFWorkbook xssf = new XSSFWorkbook("C:\\Users\\chinn\\OneDrive\\Desktop\\Week_Day_Batch_Aug\\Application_Test\\Book1.xlsx");
 		XSSFSheet sheet = xssf.getSheet("Book1");
 		String name =  sheet.getRow(0).getCell(0).getStringCellValue();
 		System.out.println(name);
