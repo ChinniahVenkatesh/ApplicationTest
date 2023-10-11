@@ -17,7 +17,7 @@ public class dataTest {
 	
 	@Given("Login to the page {string}")
 	public void login_to_the_page(String string) {
-		System.out.pritln(string);
+		System.out.println(string);
 		
 	}
 	    
